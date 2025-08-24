@@ -35,9 +35,9 @@ classDiagram
         +String descricao
     }
 
-    Usuario *-- Conta
-    Usuario *-- Cartao
-    Usuario *-- Recursos
-    Usuario *-- Noticias
+    Usuario "1" *-- "1" Conta
+    Usuario "1" *-- "1" Cartao
+    Usuario "1" *-- "N" Recursos
+    Usuario "1" *-- "N" Noticias
 
 ```

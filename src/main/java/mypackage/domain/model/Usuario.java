@@ -7,6 +7,7 @@ import java.util.List;
 @Entity(name = "tb_usuario")
 public class Usuario {
 
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
